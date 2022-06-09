@@ -15,7 +15,7 @@ None of the arrays will be empty, so you don't have to worry about that!
 // Solution: 
 
 function removeEveryOther(arr){
-  let newArr = arr.filter((item, idx)=> ((idx + 1) % 2 !== 0))
+  let newArr = arr.filter((item, idx) => ((idx + 1) % 2 !== 0))
   return newArr
 }
 
